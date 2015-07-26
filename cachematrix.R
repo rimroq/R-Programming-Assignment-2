@@ -38,7 +38,7 @@ cacheSolve <- function(myx, ...) {
     myInverse <- myx$getinv()
     if(!is.null(myInverse)) {
         message("Cache exists... now retrieving cached data...")
-        myIinverse
+        myInverse
     }	
     myData <- myx$get()
     myInverse <- solve(myData, ...)
